@@ -11,7 +11,7 @@ body{
 }
 
 .blocka{
-    margin-left: 380px;
+    margin-left: 32%;
     margin-bottom: 50px;
     height: 50px;
     width: 500px;
@@ -24,7 +24,7 @@ body{
 
 .block{
     height: 500px;
-    width: 1250px;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0);
     display: flex;
     text-align: center;
@@ -142,5 +142,5 @@ img{
     height: 300px;
     margin-top: 10%;
     border-radius: 50% 20% / 10% 40%;
-    margin-left: 8px;
+    margin-left: 60px;
 }
