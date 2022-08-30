@@ -1,0 +1,146 @@
+@font-face {
+    font-family: Science;
+    src: url('JMH_Super_Science.ttf');
+}
+
+body{
+    background: white url(DNA.jpg) 0 0 no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-content: center;
+}
+
+.blocka{
+    margin-left: 380px;
+    margin-bottom: 50px;
+    height: 50px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.820);
+    text-align: center;
+    border-radius: 3em;
+    color: rgba(0, 0, 0, 0.590);
+    font-family: Science;
+}
+
+.block{
+    height: 500px;
+    width: 1250px;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.block1{
+    margin-top: 100px;
+    height: 400px;
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.820);
+    border-radius: 40em;
+    color: rgba(0, 0, 0, 0.590);
+    font-family: Science;
+}
+
+.block2{
+    display: flex;
+    margin-top: 50px;
+    height: 450px;
+    width: 60%;
+    background-color: rgba(255,255,255, 0.820);
+    border-radius: 5em;
+    color: rgba(0, 0, 0, 0.590);
+    font-family: Science;
+}
+
+.block3{
+    margin-left: 40px;
+    height: 230px;
+    width: 200px;
+    border-radius: 2em;
+    background-color:rgb(130 135 191 / 25%);
+}
+.scroller{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 280px; 
+    height: 450px;
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.button1{
+    height: 30px;
+    width: 90px;
+    border-style: none;
+    border-radius: 10px;
+    border-bottom: 4px solid #bca0ceb6;
+    box-shadow: 6px 6px 6px rgb(150, 146, 155);
+    user-select: none;
+    background: rgba(191, 166, 219, 0.63);
+    transition: background 0.05s linear;
+    transition: all .05s linear;
+}
+  
+.button1:active {
+    box-shadow: 2px 2px 2px #777;
+    border-bottom: 1px solid #bca0ceb6;
+    transform: translateY(3px);
+}
+
+.dna{
+    font-size: 120px;
+    transform: rotate(265deg);
+    margin: 0%;
+}
+
+.button2{
+    border-radius:5em;
+    border-style: none;
+    background: none;
+    cursor: pointer;
+    background-size: 200px;
+}
+
+.icons{
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.block4{
+    height: 450px;
+    width: 50px;
+    justify-content: space-between;
+    background: rgb(130 135 191 / 25%);
+}
+
+.cadre{
+    margin-left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 2em;
+    background: rgba(118, 118, 214, 0.5);
+    cursor: pointer;
+}
+
+img{
+    height: 300px;
+    margin-top: 10%;
+    border-radius: 50% 20% / 10% 40%;
+    margin-left: 8px;
+}
